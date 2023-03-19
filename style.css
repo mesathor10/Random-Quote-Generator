@@ -1,0 +1,92 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Roboto:wght@100&display=swap');
+
+
+/* html{
+    box-sizing: border-box;
+}
+
+*, ::after, ::before{
+    box-sizing: border-box;
+} */
+
+body{
+    width: auto;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    /* font-family: 'Oswald', sans-serif; */
+    margin: 0px;
+    font-style: italic;
+    /* padding: 200px 400px 150px 400px; */
+    background-color: aquamarine;
+}
+#quote-box{
+    width: auto;
+    height: auto;
+    margin: 150px 35% 175px 35%;
+    background-color: bisque;
+    position: fixed;
+    padding: 25px;
+    border-radius: 15%; ;
+}
+
+.whole{
+    padding-top: 20px;
+    font-size:22px;
+}
+
+.whole i:first-child{
+    margin: -3px 10px 0 0;
+}
+.whole i:last-child{
+    display: flex;
+    float: right;
+    margin: 0 0 3px 10px;
+    
+}
+.fa-quote-left{
+    display: flex;
+    float: left;
+    margin: 0px 10px 20px 10px;
+}
+.quote{
+    padding-right: 20px;
+    position: fixed;
+    
+}
+#auth{
+   display: flex;
+   float: right;
+    margin: 30px 20px 0px 0px;
+    font-weight: bolder;
+    font-size: 20px
+}
+
+ul{
+    list-style-type:none;
+    display: flex;
+    /* flex-direction:row-reverse; */
+    padding-left: -40px;
+}
+button{
+    padding: 10px 15px;
+    width: auto;
+    background-color: chartreuse;
+    /* border: solid; */
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-right: 40px;
+    font-size: large;
+   display: inline-flex;
+   
+}
+
+.fa-twitter{
+    padding-right: 5px;
+}
+ /* #buttons{
+    display: flex;
+
+ } */
+
